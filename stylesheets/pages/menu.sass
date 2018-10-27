@@ -1,0 +1,100 @@
+.menu-body
+  background-image: url(imgs/menu_BG.jpg)
+  background-size: 100%
+
+.menu-container
+  display: flex
+  //flex-direction: column with img
+  flex-direction: column
+  justify-content: center
+  padding: 20px
+
+.menu-container__menus
+  // margin-top: 5% without img
+  margin-top: 30%
+  // width: 70%
+  // margin-left: auto
+  // margin-bottom: 24px
+
+.menu-container__buttons
+  display: flex
+  margin: auto
+  position: relative
+  top: 5vh
+  // flex-direction: column
+  // position: fixed
+  // left: 12px
+  // top: 30vh
+
+.tab-nav-button
+  margin-bottom: 12px
+  background-color: inherit
+  border: none
+
+#active
+  border-bottom: 1px solid $white
+
+
+.menu-item
+  margin-bottom: 24px
+
+.menu-item__heading
+  font-family: $ECircA-Bold
+
+.tab-nav-button,
+.menu-item__details
+  font-family: $ACPro-Italic
+
+.menu-tab__headline,
+.menu-item__currency
+  font-family: $ETri-Reg
+
+.menu-tab__headline
+  color: $white
+  text-align: center
+  font-size: 24px
+
+.tab-nav-button a,
+.menu-item__heading,
+.menu-item__details,
+.menu-item__currency,
+.menu-item__cat
+  font-size: 12px
+  color: $white
+  margin: 0
+  letter-spacing: $letter-spacing
+  text-shadow: 2px 2px 10px #000
+  transition: all 0.2s ease-in-out
+
+.menu-item__cat,
+.tab-nav-button a
+  font-size: inherit
+  text-shadow: none
+
+.menu-item__cat
+  text-align: center
+  margin-bottom: 24px
+
+
+
+
+@media screen and (min-width: 768px)
+  // .menu-container__buttons
+  //   margin-right: auto
+  //   position: fixed
+  //   margin-top: 10%
+  //   top: 15vh
+  //   left: 5%
+
+  .menu-item__cat
+    text-align: left
+    margin-top: 48px
+
+  .menu-container__menus
+    max-width: 760px
+    margin: 10% auto
+
+@media screen and (min-width: 996px)
+  .tab-nav-button a:hover
+    text-shadow: 0px 0px 10px #fff
+    transition: all 0.2s ease-in-out

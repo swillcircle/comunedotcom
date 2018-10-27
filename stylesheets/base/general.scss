@@ -1,0 +1,63 @@
+
+/*******************
+General
+*******************/
+@font-face {
+    font-family: 'Euclid Triangle-Reg';
+    src: url('/stylesheets/webfonts/EuclidTriangle-Regular.otf')format("opentype");
+}
+
+@font-face {
+    font-family: 'Euclid Triangle-Semi';
+    src: url('/stylesheets/webfonts/EuclidTriangle-Semibold.otf')format("opentype");
+}
+
+@font-face {
+    font-family: 'Euclid CircularA-Reg';
+    src: url('/stylesheets/webfonts/EuclidCircularA-Regular.otf')format("opentype");
+}
+
+@font-face {
+    font-family: 'Euclid CircularA-Bold';
+    src: url('/stylesheets/webfonts/EuclidCircularA-Bold.otf')format("opentype");
+}
+
+@font-face {
+    font-family: 'ACaslonPro-Italic';
+    src: url('/stylesheets/webfonts/ACaslonPro-Italic.otf')format("opentype");
+}
+
+@font-face {
+    font-family: 'ACaslonPro-Reg';
+    src: url('/stylesheets/webfonts/ACaslonPro-Regular.otf')format("opentype");
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+ body {
+  position: relative;
+  background-color: #dec6b9;
+  opacity:0;  /* make things invisible upon start */
+  animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-duration:.5s;
+  animation-delay: .2s
+ }
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.img-responsive {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}

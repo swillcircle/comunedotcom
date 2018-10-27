@@ -1,0 +1,31 @@
+/*******************
+Footer
+*******************/
+
+.footer-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  padding: 12px;
+  bottom: 0;
+  background-color: #dec6b9;
+}
+.site-location__address,
+.site-location__tel {
+  font-family: $ACPro-Italic;
+  font-size: .75em;
+  text-align: center;
+  color: $white;
+  letter-spacing: .5px;
+}
+.site-location__tel {
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    background-color: initial;
+  }
+}

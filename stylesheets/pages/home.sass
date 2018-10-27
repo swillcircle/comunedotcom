@@ -1,0 +1,49 @@
+.home-container
+  position: absolute
+  top: 0
+  height: 100vh
+  width: 100vw
+  background-image: url(imgs/green-peppercorns.jpg)
+  background-size: cover
+  background-position: center
+
+.home-copy__container
+  padding: 28px
+  background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%)
+  height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+.home-copy__headline,
+.home-copy__subline,
+.home-copy__subline strong
+  color: $white
+  font-size: 13px
+
+.home-copy__headline
+  font-family: $ETri-Semi
+  text-transform: uppercase
+  letter-spacing: $letter-spacing
+
+.home-copy__subline
+  font-family: $ACPro-Reg
+  letter-spacing: 2px
+  line-height: 24px
+
+.home-copy__subline strong
+  font-family: $ACPro-Reg
+
+////////////////////////////// Media Queries
+
+@media screen and (min-width: 768px)
+  .home-copy__container
+    width: 40%
+    margin-left: 50%
+    padding: 0
+    background: none
+    max-width: 375px
+
+@media screen and (min-width: 996px)
+  .home-copy__container
+    margin-left: 60%

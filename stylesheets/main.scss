@@ -1,0 +1,17 @@
+@import "base/normalize";
+@import "base/general";
+
+@import "utils/variables";
+@import "utils/mixins";
+
+@import "layout/nav";
+@import "layout/footer";
+
+
+@import "pages/home";
+@import "pages/about";
+@import "pages/menu";
+@import "pages/reserve";
+@import "pages/contact";
+@import "pages/events";
+// @import "pages/contact";
