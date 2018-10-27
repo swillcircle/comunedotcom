@@ -1,0 +1,50 @@
+doctype html
+html
+  include head.jade
+  
+  body.menu-body
+    include nav.jade
+    
+    section.menu-container
+      .menu-container__buttons
+        //- h1.menu-tab__headline menus
+        button#active.tab-nav-button( data-tab-button='featured', type='button')
+          a(href='#day') day
+        button.tab-nav-button(id='', data-tab-button='evening', type='button')
+          a(href='#evening') evening
+        button.tab-nav-button(id='', data-tab-button='brunch', type='button')
+          a(href='#brunch') brunch
+        button.tab-nav-button(id='', data-tab-button='drinks', type='button')
+          a(href='#drink') drinks
+        button.tab-nav-button(id='', data-tab-button='happy_hour', type='button')
+          a(href='#happy_hour') happy&nbsp;hour
+      .menu-container__menus
+        #active.asi-tab-pane(data-tab='featured', style='')
+          .menu-day
+            img.img-responsive( alt='day menu', src='imgs/lunch_comune_fall18.jpg')
+
+        #evening.asi-tab-pane(data-tab='evening', style='display:none;')
+          .menu-evening
+            img.img-responsive( alt='day menu', src='imgs/dinner_comune_fall18.jpg')
+            
+        #brunch.asi-tab-pane(data-tab='brunch', style='display:none;')
+          .menu-brunch
+            img.img-responsive( alt='day menu', src='imgs/brunch_comune_fall18.jpg')
+            
+        #drinks.asi-tab-pane(data-tab='drinks', style='display:none;')
+          .menu-drinks
+            img.img-responsive( alt='day menu', src='imgs/spirts_comune_fall18.jpg')
+            
+        #happy_hour.asi-tab-pane(data-tab='happy_hour', style='display:none;')
+          .menu-hh
+            img.img-responsive( alt='day menu', src='imgs/drinks_comune_fall18.jpg')
+          
+
+
+
+
+
+    
+
+    
+    include footer.jade

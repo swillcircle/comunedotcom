@@ -1,0 +1,38 @@
+doctype html
+html
+  include head.jade
+  
+  body.contact-body
+    include nav.jade
+
+    section.content-container
+      h1.content-container__headline Contact
+      p.content-container__subcopy
+        a(href='tel:%206145551234') 614-947-1012
+      p.content-container__subcopy
+        | For media inquiries please contact:
+        br
+        a(href='mailto:joe@comune-restaurant.com') joe@comune-restaurant.com
+      //- p
+      //-   | For career inquiries, please follow this 
+      //-   a(href='/careers') link
+      //-   | .
+      p.content-container__subcopy
+        | If you’d like to be kept up to date about events and news from the restaurant please sign up for our Newsletter.
+      form.form-ui(method="post" action="https://formspree.io/dannyjpainter@gmail.com")
+        label
+          input.form-control(type='text', name='name', placeholder='Name*', required='',class="form-input") 
+        label
+          input.form-control(type='email', name='email', placeholder='Email*', required='',class="form-input") 
+        label
+          input.form-control(type='text', name='phone', placeholder='Phone Number*', required='',class="form-input",  data-input-validator='phone')
+        label
+          textarea.form-control(name='message', placeholder='Your Message' ,class="form-input")
+        button.btn.btn-brand(type='submit') Send
+      .form-actions
+        span.form-error-msg Please check errors in the form above
+      .form-success-msg
+        span Thank you for your inquiry. We’ll be in touch shortly.
+        
+        
+    include footer.jade

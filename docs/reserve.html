@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="uft-8">
+    <title>Comune</title>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div id="menu" onclick="mobileMenu()"><span onclick="mobileIcon()" class="hamburger-icon"><span class="hamburger-bar hamburger-bar-1"></span><span class="hamburger-bar hamburger-bar-2"></span><span class="hamburger-bar hamburger-bar-3"></span></span></div><a href="index.html" class="logo"><img src="imgs/comune_logo.svg"></a>
+    <nav id="mobile-nav"><a href="about.html" class="mobile-nav-item">about</a><a href="menu.html" class="mobile-nav-item">menu</a><a href="reserve.html" class="mobile-nav-item">reserve</a><a href="events.html" class="mobile-nav-item">events</a><a href="contact.html" class="mobile-nav-item">contact</a><a href="team.html" class="mobile-nav-item team">team</a></nav>
+    <nav class="desktop-nav">
+      <nav class="nav-links"><a href="about.html" class="nav-item">about</a><a href="menu.html" class="nav-item">menu</a><a href="reserve.html" class="nav-item">reserve</a><a href="events.html" class="nav-item">events</a><a href="contact.html" class="nav-item">contact</a><a href="team.html" class="nav-item team">team</a></nav>
+    </nav>
+    <section class="reserve-body">
+      <div class="reserve-copy__container">
+        <script type="text/javascript" src="//www.opentable.com/widget/reservation/loader?rid=1018249&amp;domain=com&amp;type=standard&amp;theme=standard&amp;lang=en&amp;overlay=false&amp;iframe=true"></script>
+      </div>
+    </section>
+    <footer class="footer-container"><a href="http://www.google.com/maps/search/677%20Parsons%20Avenue%2C%20Columbus%2C%20OH%2043206" target="_blank" class="site-location__address"><span>677 Parsons Avenue,</span><span> Columbus, OH 43206</span></a><a href="tel:614-555-1234" class="site-location__tel">614-555-1234</a></footer>
+  </body>
+</html>
