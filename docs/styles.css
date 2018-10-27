@@ -671,7 +671,7 @@ Footer
   padding: 20px; }
 
 .menu-container__menus {
-  margin-top: 30%; }
+  margin-top: 20%; }
 
 .menu-container__buttons {
   display: flex;
@@ -720,7 +720,6 @@ Footer
 
 .menu-item__cat,
 .tab-nav-button a {
-  font-size: inherit;
   text-shadow: none; }
 
 .menu-item__cat {
