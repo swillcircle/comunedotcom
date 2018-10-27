@@ -473,7 +473,7 @@ body {
   height: 100vh;
   justify-content: space-evenly;
   left: -40%;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.2s ease-in-out; }
 
 .is-open {
   left: 0 !important;
@@ -499,7 +499,9 @@ body {
 .logo {
   padding-top: 24px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: auto;
+  width: 80px; }
 
 .nav-links {
   display: flex;
