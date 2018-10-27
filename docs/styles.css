@@ -661,8 +661,8 @@ Footer
     height: 100vh; } }
 
 .menu-body {
-  background-image: url(imgs/menu_BG.jpg);
-  background-size: 100%; }
+  background-image: url(imgs/comune_texture-10.jpg);
+  background-size: cover; }
 
 .menu-container {
   display: flex;
