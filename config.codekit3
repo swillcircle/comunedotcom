@@ -30,16 +30,6 @@
 		"oAP": "\/docs\/events.html",
 		"oF": 0
 		},
-	"\/docs\/imgs\/brunch_comune_fall18.jpg": {
-		"ft": 16384,
-		"iS": 538696,
-		"oA": 0,
-		"oAP": "\/docs\/imgs\/brunch_comune_fall18.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/docs\/imgs\/brunch_comune_fall18.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -67,32 +57,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/docs\/imgs\/dinner_comune_fall18.jpg": {
-		"ft": 16384,
-		"iS": 667843,
-		"oA": 0,
-		"oAP": "\/docs\/imgs\/dinner_comune_fall18.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/docs\/imgs\/dinner_comune_fall18.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/docs\/imgs\/dinner_comune_fall18.pdf",
 		"oF": 0
-		},
-	"\/docs\/imgs\/drinks_comune_fall18.jpg": {
-		"ft": 16384,
-		"iS": 768767,
-		"oA": 0,
-		"oAP": "\/docs\/imgs\/drinks_comune_fall18.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"\/docs\/imgs\/drinks_comune_fall18.pdf": {
 		"cB": 0,
@@ -119,16 +89,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/docs\/imgs\/lunch_comune_fall18.jpg": {
-		"ft": 16384,
-		"iS": 552206,
-		"oA": 0,
-		"oAP": "\/docs\/imgs\/lunch_comune_fall18.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"\/docs\/imgs\/lunch_comune_fall18.pdf": {
@@ -166,16 +126,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/docs\/imgs\/spirts_comune_fall18.jpg": {
-		"ft": 16384,
-		"iS": 740833,
-		"oA": 0,
-		"oAP": "\/docs\/imgs\/spirts_comune_fall18.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"\/docs\/imgs\/spirts_comune_fall18.pdf": {

@@ -729,6 +729,9 @@ Footer
   text-align: center;
   margin-bottom: 24px; }
 
+.menu-drinks img {
+  max-width: 400px; }
+
 @media screen and (min-width: 768px) {
   .menu-container__buttons {
     margin-right: auto;
