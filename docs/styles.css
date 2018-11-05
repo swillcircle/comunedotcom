@@ -364,16 +364,8 @@ General
   src: url("https://media-cdn.getbento.com/accounts/6319f757a5656797cbb64c935dbc0e12/media/accounts/media/Guwb96wRACxcQ9KWnN3V_EuclidCircularA-Light.otf") format("opentype"); }
 
 @font-face {
-  font-family: 'Euclid Triangle-Semi';
-  src: url("/stylesheets/webfonts/EuclidTriangle-Semibold.otf") format("opentype"); }
-
-@font-face {
   font-family: 'Euclid CircularA-Reg';
   src: url("https://media-cdn.getbento.com/accounts/6319f757a5656797cbb64c935dbc0e12/media/accounts/media/MVNdgAA2SlCIh1UBuQNQ_EuclidCircularA-Medium.otf") format("opentype"); }
-
-@font-face {
-  font-family: 'Euclid CircularA-Bold';
-  src: url("/stylesheets/webfonts/EuclidCircularA-Bold.otf") format("opentype"); }
 
 @font-face {
   font-family: 'ACaslonPro-Italic';
@@ -664,7 +656,7 @@ Footer
 
 .menu-body {
   background-image: url(imgs/comune_texture_10.jpg);
-  background-size: cover; }
+  background-size: 100%; }
 
 .menu-container {
   display: flex;
@@ -673,7 +665,8 @@ Footer
   padding: 20px; }
 
 .menu-container__menus {
-  margin-top: 20%; }
+  margin-top: 20%;
+  margin-bottom: 24px; }
 
 .menu-container__buttons {
   display: flex;
@@ -687,8 +680,13 @@ Footer
   background-color: inherit;
   border: none; }
 
-#active {
-  border-bottom: 1px solid #ffffff; }
+.menu-container__buttons #active {
+  transform: scale(1.5);
+  transition: all 0.2s ease-in-out; }
+
+#active a {
+  color: #000000;
+  border-bottom: 1px solid #000000; }
 
 .menu-item {
   margin-bottom: 24px; }
@@ -709,16 +707,12 @@ Footer
   text-align: center;
   font-size: 24px; }
 
-.tab-nav-button a,
-.menu-item__heading,
-.menu-item__details,
-.menu-item__currency,
-.menu-item__cat {
+.tab-nav-button a {
   font-size: 16px;
   color: #ffffff;
   margin: 0;
   letter-spacing: 3px;
-  text-shadow: 2px 2px 10px #000;
+  text-shadow: 2px 2px 10px #fff;
   transition: all 0.2s ease-in-out; }
 
 .menu-item__cat,
