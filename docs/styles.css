@@ -361,19 +361,27 @@ General
 *******************/
 @font-face {
   font-family: 'Euclid Triangle-Reg';
-  src: url("https://media-cdn.getbento.com/accounts/6319f757a5656797cbb64c935dbc0e12/media/accounts/media/Guwb96wRACxcQ9KWnN3V_EuclidCircularA-Light.otf") format("opentype"); }
+  src: url("webfonts/EuclidTriangle-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Euclid Triangle-Semi';
+  src: url("webfonts/EuclidTriangle-Semibold.otf") format("opentype"); }
 
 @font-face {
   font-family: 'Euclid CircularA-Reg';
-  src: url("https://media-cdn.getbento.com/accounts/6319f757a5656797cbb64c935dbc0e12/media/accounts/media/MVNdgAA2SlCIh1UBuQNQ_EuclidCircularA-Medium.otf") format("opentype"); }
+  src: url("webfonts/EuclidCircularA-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Euclid CircularA-Bold';
+  src: url("webfonts/EuclidCircularA-Bold.otf") format("opentype"); }
 
 @font-face {
   font-family: 'ACaslonPro-Italic';
-  src: url("https://media-cdn.getbento.com/accounts/6319f757a5656797cbb64c935dbc0e12/media/accounts/media/BlNqgz7lRyCfa3QjOnz6_ACaslonPro-Italic.otf") format("opentype"); }
+  src: url("webfonts/ACaslonPro-Italic.otf") format("opentype"); }
 
 @font-face {
   font-family: 'ACaslonPro-Reg';
-  src: url("https://media-cdn.getbento.com/accounts/6319f757a5656797cbb64c935dbc0e12/media/accounts/media/ZpXmPkkYT66zprYOKWeF_ACaslonPro-Regular.otf") format("opentype"); }
+  src: url("webfonts/ACaslonPro-Regular.otf") format("opentype"); }
 
 * {
   box-sizing: border-box; }
