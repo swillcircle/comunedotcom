@@ -277,11 +277,73 @@
 		"oAP": "\/docs\/webfonts\/EuclidCircularA-Bold.otf",
 		"oF": 0
 		},
+	"\/docs\/webfonts\/EuclidCircularA-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/webfonts\/EuclidCircularA-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/webfonts\/EuclidCircularA-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidCircularA-Bold.ttf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidCircularA-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidCircularA-Bold.woff",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidCircularA-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidCircularA-Bold.woff2",
+		"oF": 0
+		},
 	"\/docs\/webfonts\/EuclidCircularA-Regular.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/docs\/webfonts\/EuclidCircularA-Regular.otf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidCircularA-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/webfonts\/EuclidCircularA-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/webfonts\/EuclidCircularA-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidCircularA-Regular.ttf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidCircularA-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidCircularA-Regular.woff",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidCircularA-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidCircularA-Regular.woff2",
 		"oF": 0
 		},
 	"\/docs\/webfonts\/EuclidTriangle-Regular.otf": {
@@ -291,11 +353,73 @@
 		"oAP": "\/docs\/webfonts\/EuclidTriangle-Regular.otf",
 		"oF": 0
 		},
+	"\/docs\/webfonts\/EuclidTriangle-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/webfonts\/EuclidTriangle-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/webfonts\/EuclidTriangle-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidTriangle-Regular.ttf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidTriangle-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidTriangle-Regular.woff",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidTriangle-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidTriangle-Regular.woff2",
+		"oF": 0
+		},
 	"\/docs\/webfonts\/EuclidTriangle-Semibold.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/docs\/webfonts\/EuclidTriangle-Semibold.otf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidTriangle-Semibold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/webfonts\/EuclidTriangle-Semibold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/webfonts\/EuclidTriangle-Semibold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidTriangle-Semibold.ttf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidTriangle-Semibold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidTriangle-Semibold.woff",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/EuclidTriangle-Semibold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/EuclidTriangle-Semibold.woff2",
 		"oF": 0
 		},
 	"\/stylesheets\/base\/general.scss": {
