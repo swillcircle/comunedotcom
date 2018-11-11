@@ -37,13 +37,17 @@ General
 
 @font-face {
     font-family: 'ACaslonPro-Italic';
-    src: url('webfonts/ACaslonPro-Italic.otf')format("opentype");
+    src: url('webfonts/ACaslonPro-Italic.otf')format("opentype"),
+          url('webfonts/ACaslonPro-Italic.woff')format("woff"),
+          url('webfonts/ACaslonPro-Italic.ttf')format("truetype");
 
 }
 
 @font-face {
     font-family: 'ACaslonPro-Reg';
-    src: url('webfonts/ACaslonPro-Regular.otf')format("opentype");
+    src: url('webfonts/ACaslonPro-Regular.otf')format("opentype"),
+          url('webfonts/ACaslonPro-Regular.woff')format("woff"),
+          url('webfonts/ACaslonPro-Regular.ttf')format("truetype");
 }
 * {
   box-sizing: border-box;

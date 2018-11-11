@@ -263,11 +263,39 @@
 		"oAP": "\/docs\/webfonts\/ACaslonPro-Italic.otf",
 		"oF": 0
 		},
+	"\/docs\/webfonts\/ACaslonPro-Italic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/ACaslonPro-Italic.ttf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/ACaslonPro-Italic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/ACaslonPro-Italic.woff",
+		"oF": 0
+		},
 	"\/docs\/webfonts\/ACaslonPro-Regular.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/docs\/webfonts\/ACaslonPro-Regular.otf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/ACaslonPro-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/ACaslonPro-Regular.ttf",
+		"oF": 0
+		},
+	"\/docs\/webfonts\/ACaslonPro-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/webfonts\/ACaslonPro-Regular.woff",
 		"oF": 0
 		},
 	"\/docs\/webfonts\/EuclidCircularA-Bold.otf": {
