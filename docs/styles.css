@@ -612,6 +612,7 @@ Footer
   -webkit-box-shadow: inset 0px 0px 0px 2px white;
   -moz-box-shadow: inset 0px 0px 0px 2px white;
   box-shadow: inset 0px 0px 0px 2px white;
+  border: none;
   background-color: transparent;
   padding: 12px 32px;
   margin: 0 12px;
