@@ -417,53 +417,6 @@ body {
   padding: 0;
   margin: 0; }
 
-button {
-  border: none;
-  background-color: #fff;
-  padding: 12px 32px;
-  font-family: Euclid CircularA-Bold, san sariff;
-  font-size: 13px;
-  letter-spacing: 3px;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
-
-button.outline {
-  -webkit-box-shadow: inset 0px 0px 0px 2px white;
-  -moz-box-shadow: inset 0px 0px 0px 2px white;
-  box-shadow: inset 0px 0px 0px 2px white;
-  background-color: transparent;
-  padding: 12px 32px;
-  margin: 0 12px;
-  color: #fff;
-  font-family: Euclid CircularA-Bold, san sariff;
-  font-size: 13px;
-  letter-spacing: 3px;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
-
-button:hover {
-  background-color: #000;
-  color: #fff;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
-
-button.outline:hover {
-  -webkit-box-shadow: inset 0px 0px 0px 2px white;
-  -moz-box-shadow: inset 0px 0px 0px 2px white;
-  box-shadow: inset 0px 0px 0px 2px white;
-  background-color: #fff;
-  padding: 12px 32px;
-  color: #000;
-  font-family: Euclid CircularA-Bold, san sariff;
-  font-size: 13px;
-  letter-spacing: 3px;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
-
 .team {
   display: none; }
 
@@ -643,6 +596,53 @@ Footer
 
 .home-copy__subline strong {
   font-family: "ACaslonPro-Reg", Helvetica, sans-serif; }
+
+.home-button_menu {
+  border: none;
+  background-color: #fff;
+  padding: 12px 32px;
+  font-family: Euclid CircularA-Bold, san sariff;
+  font-size: 13px;
+  letter-spacing: 3px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+.home-button_reserve {
+  -webkit-box-shadow: inset 0px 0px 0px 2px white;
+  -moz-box-shadow: inset 0px 0px 0px 2px white;
+  box-shadow: inset 0px 0px 0px 2px white;
+  background-color: transparent;
+  padding: 12px 32px;
+  margin: 0 12px;
+  color: #fff;
+  font-family: Euclid CircularA-Bold, san sariff;
+  font-size: 13px;
+  letter-spacing: 3px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+.home-button_menu:hover {
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+.home-button_reserve:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 2px white;
+  -moz-box-shadow: inset 0px 0px 0px 2px white;
+  box-shadow: inset 0px 0px 0px 2px white;
+  background-color: #fff;
+  padding: 12px 32px;
+  color: #000;
+  font-family: Euclid CircularA-Bold, san sariff;
+  font-size: 13px;
+  letter-spacing: 3px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
 
 @media screen and (max-height: 414px) {
   .home-container {
