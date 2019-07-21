@@ -835,11 +835,6 @@ Footer
   align-items: center;
   justify-content: center; }
 
-@media screen and (min-width: 768px) {
-  .reserve-copy__container {
-    position: absolute;
-    right: 10%; } }
-
 .contact-body {
   background-image: url(imgs/night-dinner_BG.jpg);
   background-size: cover;

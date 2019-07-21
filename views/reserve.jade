@@ -7,8 +7,10 @@ html
     
     section.reserve-body
       .reserve-copy__container
-        script(type='text/javascript', src='//www.opentable.com/widget/reservation/loader?rid=1018249\&domain=com&type=standard&theme=standard&lang=en&overlay=false&iframe=true')
-    
+        a#resyButton-dDh2jWTx93o(href='https://resy.com/cities/clb/comune') Book your Comune reservation on Resy
+        script(src='https://widgets.resy.com/embed.js')
+        script.
+          resyWidget.addButton(document.getElementById('resyButton-dDh2jWTx93o'), {"venueId":6027,"apiKey":"JKHzu3NUUvEZzUk6ZSkBLqBV9yAMbpXe","replace":true,});
 
     
     include footer.jade

@@ -16,8 +16,13 @@
       <nav class="nav-links"><a href="about.html" class="nav-item">about</a><a href="menu.html" class="nav-item">menu</a><a href="reserve.html" class="nav-item">reserve</a><a href="events.html" class="nav-item">events</a><a href="contact.html" class="nav-item">contact</a><a href="team.html" class="nav-item team">team</a></nav>
     </nav>
     <section class="reserve-body">
-      <div class="reserve-copy__container">
-        <script type="text/javascript" src="//www.opentable.com/widget/reservation/loader?rid=1018249&amp;domain=com&amp;type=standard&amp;theme=standard&amp;lang=en&amp;overlay=false&amp;iframe=true"></script>
+      <div class="reserve-copy__container"><a id="resyButton-dDh2jWTx93o" href="https://resy.com/cities/clb/comune">Book your Comune reservation on Resy</a>
+        <script src="https://widgets.resy.com/embed.js"></script>
+        <script>
+          resyWidget.addButton(document.getElementById('resyButton-dDh2jWTx93o'), {"venueId":6027,"apiKey":"JKHzu3NUUvEZzUk6ZSkBLqBV9yAMbpXe","replace":true,});
+          
+          
+        </script>
       </div>
     </section>
     <footer class="footer-container"><a href="http://www.google.com/maps/search/677%20Parsons%20Avenue%2C%20Columbus%2C%20OH%2043206" target="_blank" class="site-location__address"><span>677 Parsons Avenue,</span><span> Columbus, OH 43206</span></a><a href="tel:614-555-1234" class="site-location__tel">614-555-1234</a></footer>
